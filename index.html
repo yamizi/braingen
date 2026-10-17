@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrainGEN Workshop · Responsible Generative AI for Brain Simulation</title>
+  <meta name="description" content="BrainGEN, 1–3 March 2027, University of Luxembourg: an interdisciplinary workshop on when Virtual Brain Twins should not be trusted in the clinic.">
+  <meta name="theme-color" content="#0a0e1f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BrainGEN Workshop · Responsible Generative AI for Brain Simulation">
+  <meta property="og:description" content="When should a Virtual Brain Twin not be trusted? 1–3 March 2027, University of Luxembourg.">
+  <meta property="og:image" content="assets/img/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#top" aria-label="BrainGEN home">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><use href="assets/img/sprite.svg#logo"/></svg>
+        <span>Brain<b>GEN</b></span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+      <nav class="menu" id="menu">
+        <a href="#about">About</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#format">Format</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#participants">Experts</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="#contact" class="btn btn--sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="orb orb--a"></span><span class="orb orb--b"></span><span class="orb orb--c"></span>
+        <canvas id="mesh"></canvas>
+      </div>
+      <div class="wrap hero__in">
+        <p class="pill">IAS Luxembourg · 2026 Brainstorm</p>
+        <h1>Responsible Generative AI<br>for <span class="grad">Brain Simulation</span></h1>
+        <p class="lead">When should a Virtual Brain Twin <em>not</em> be trusted, however well it scores? Fifteen experts across AI, medicine, epidemiology, law and philosophy stress-test the same cases, together.</p>
+        <ul class="facts">
+          <li><svg viewBox="0 0 24 24"><use href="assets/img/sprite.svg#cal"/></svg>1 – 3 March 2027</li>
+          <li><svg viewBox="0 0 24 24"><use href="assets/img/sprite.svg#pin"/></svg>University of Luxembourg</li>
+          <li><svg viewBox="0 0 24 24"><use href="assets/img/sprite.svg#users"/></svg>15 invited experts</li>
+        </ul>
+        <div class="cta">
+          <a class="btn" href="#agenda">View the programme</a>
+          <a class="btn btn--ghost" href="#participants">Meet the experts</a>
+        </div>
+        <div class="count" id="count" role="timer" aria-label="Countdown to the workshop">
+          <div><b id="cd-d">--</b><span>days</span></div>
+          <div><b id="cd-h">--</b><span>hours</span></div>
+          <div><b id="cd-m">--</b><span>min</span></div>
+          <div><b id="cd-s">--</b><span>sec</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEYWORDS STRIP -->
+    <div class="strip" aria-hidden="true">
+      <div class="strip__in">
+        <span>Responsible AI</span><span>Generative Brain Models</span><span>Virtual Brain Twins</span><span>Clinical Translation</span><span>Interdisciplinary Neuroscience</span>
+        <span>Responsible AI</span><span>Generative Brain Models</span><span>Virtual Brain Twins</span><span>Clinical Translation</span><span>Interdisciplinary Neuroscience</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="sec">
+      <div class="wrap grid2">
+        <div class="reveal">
+          <p class="eyebrow">About</p>
+          <h2>An anti-benchmark workshop</h2>
+          <p>Virtual Brain Twins (VBTs) combine generative AI with biologically grounded simulation to forecast how a disease will evolve in an individual patient: tumour growth in glioblastoma and low-grade glioma, cognitive and motor decline in Alzheimer's and Parkinson's disease.</p>
+          <p>The field is organised around one incentive: the best score on a benchmark. BrainGEN inverts that logic. Instead of asking how to build a twin that performs better, we ask when it should <strong>not</strong> be trusted in the clinic, across oncology and neurodegeneration at once.</p>
+          <p>No single discipline can answer this, and no conventional funding instrument supports the boundary-crossing collaboration it needs. This workshop is that instrument.</p>
+        </div>
+        <div class="stats reveal">
+          <div class="card stat"><b>7 / 143</b><span>foundation brain models evaluated in a clinical setting; none with rigorous bias assessment (PROBAST / CHARMS).</span></div>
+          <div class="card stat"><b>2</b><span>pathology families compared head-to-head: brain oncology and neurodegeneration.</span></div>
+          <div class="card stat"><b>4</b><span>failure dimensions: validation, fairness, interpretability and governance under the EU AI Act.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section id="objectives" class="sec sec--alt">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Objectives</p><h2>What we will deliver</h2>
+          <p class="sub">A first shared framework defining the conditions under which Virtual Brain Twins should not be trusted for clinical translation, plus the collaborations and proposals to take it forward.</p></div>
+        <div class="cards4">
+          <article class="card reveal"><i>01</i><h3>Shared vocabulary</h3><p>A glossary that lets a mathematician, clinician, epidemiologist, philosopher and legal scholar discuss the same VBT without mistranslation.</p></article>
+          <article class="card reveal"><i>02</i><h3>How twins fail</h3><p>Joint stress-testing of real cases across validation, fairness, interpretability, EU AI Act compliance and consent for synthetic patient data.</p></article>
+          <article class="card reveal"><i>03</i><h3>Shared or specific?</h3><p>Are the conditions of distrust common to both pathologies or specific to each? Only answerable with both clinical communities in one room.</p></article>
+          <article class="card reveal"><i>04</i><h3>Paper and roadmap</h3><p>A position paper and a concrete roadmap for follow-on proposals to IAS AUDACITY, the FNR and Horizon Europe.</p></article>
+        </div>
+        <div class="rq reveal">
+          <h3>Research questions</h3>
+          <ul>
+            <li>Are the conditions under which a VBT should not be trusted shared across brain oncology and neurodegeneration, or specific to each?</li>
+            <li>What minimum validation, fairness and interpretability standards must a VBT meet before deployment, and how do they map onto EU AI Act high-risk requirements?</li>
+            <li>What governance and consent framework is adequate for synthetic patient data generated by these models?</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAT -->
+    <section id="format" class="sec">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Format</p><h2>Case-based confrontation, not panels</h2>
+          <p class="sub">The comparison is performed rather than merely discussed. Two real, anonymised cases, a glioma twin and a Parkinson's twin, are run through each failure dimension in parallel.</p></div>
+        <ol class="steps">
+          <li class="reveal"><span class="tag">Weeks −6 to −1</span><h3>Shared ground</h3><p>Structured evidence briefing, one-page position statements from every participant and a draft glossary circulated for comment.</p></li>
+          <li class="reveal"><span class="tag">3 days · Luxembourg</span><h3>Paired stress-testing</h3><p>Glossary agreed face to face, then one failure dimension per session using the <strong>1-2-4-All</strong> format, tracked on a live shared-vs-specific map.</p></li>
+          <li class="reveal"><span class="tag">Within 6 weeks</span><h3>Position paper</h3><p>Each section drafted by a mixed pair, never a single discipline, with two anonymous review rounds preserving expert caveats.</p></li>
+        </ol>
+        <div class="roles reveal">
+          <h3>Stress-test, role by role</h3>
+          <div class="roles__g">
+            <div><b>Modellers</b>state what the twin predicts</div>
+            <div><b>Validators</b>attack whether the evidence supports it</div>
+            <div><b>Fairness &amp; security</b>try to break it</div>
+            <div><b>Law</b>examines consent and governance</div>
+            <div><b>Philosophy</b>clarifies what may legitimately be claimed</div>
+            <div><b>Clinicians</b>judge bedside usability</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDA -->
+    <section id="agenda" class="sec sec--alt">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Programme</p><h2>Three days, one shared map</h2>
+          <p class="sub"><span class="chip">Provisional</span> Session titles and times are indicative and will be finalised with participants.</p></div>
+        <div class="tabs reveal" role="tablist" aria-label="Workshop days">
+          <button role="tab" aria-selected="true" aria-controls="day1" id="t1">Day 1 · Mon 1 Mar</button>
+          <button role="tab" aria-selected="false" aria-controls="day2" id="t2" tabindex="-1">Day 2 · Tue 2 Mar</button>
+          <button role="tab" aria-selected="false" aria-controls="day3" id="t3" tabindex="-1">Day 3 · Wed 3 Mar</button>
+        </div>
+        <div class="panel reveal" id="day1" role="tabpanel" aria-labelledby="t1">
+          <ul class="tl">
+            <li><time>09:00</time><div><h4>Welcome and framing</h4><p>Why an anti-benchmark view; presentation of the two anonymised cases.</p></div></li>
+            <li><time>10:30</time><div><h4>Glossary session</h4><p>Bias, validation, trust and synthetic data: agree the shared meanings face to face.</p></div></li>
+            <li><time>13:30</time><div><h4>Dimension 1: Validation</h4><p>Does the evidence support the twin's predictions? Both cases, in parallel, 1-2-4-All.</p></div></li>
+            <li><time>16:30</time><div><h4>Shared-vs-specific map</h4><p>First read-out of the whiteboard.</p></div></li>
+          </ul>
+        </div>
+        <div class="panel reveal" id="day2" role="tabpanel" aria-labelledby="t2" hidden>
+          <ul class="tl">
+            <li><time>09:00</time><div><h4>Dimension 2: Demographic fairness</h4><p>Where does performance break across populations and under-served groups?</p></div></li>
+            <li><time>11:30</time><div><h4>Dimension 3: Robustness and manipulability</h4><p>Probing the twin's security and stability under perturbation.</p></div></li>
+            <li><time>13:30</time><div><h4>Dimension 4: Clinical interpretability</h4><p>What can clinicians interpret and act on at the bedside, and what may legitimately be claimed?</p></div></li>
+            <li><time>16:30</time><div><h4>Shared-vs-specific map</h4><p>Consolidating failure modes across both pathologies.</p></div></li>
+          </ul>
+        </div>
+        <div class="panel reveal" id="day3" role="tabpanel" aria-labelledby="t3" hidden>
+          <ul class="tl">
+            <li><time>09:00</time><div><h4>Dimension 5: Governance and consent</h4><p>EU AI Act high-risk requirements and consent for synthetic patient data.</p></div></li>
+            <li><time>11:30</time><div><h4>Synthesis</h4><p>Which conditions of distrust are common, which specific? Outline of the position paper.</p></div></li>
+            <li><time>13:30</time><div><h4>Funding roadmap</h4><p>IAS AUDACITY, FNR WEAVE/INTER, Horizon Europe: assign work packages and mixed drafting pairs.</p></div></li>
+            <li><time>15:30</time><div><h4>Next steps and close</h4><p>Writing timeline, review rounds and the follow-up virtual session.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTICIPANTS -->
+    <section id="participants" class="sec">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Experts</p><h2>The people who know how models fail</h2>
+          <p class="sub">Eight women and seven men, from Luxembourg and across Europe and the US, spanning medical imaging AI, neuro-oncology, mathematical oncology, epidemiology, philosophy of AI and health law.</p></div>
+        <div class="filters reveal" id="filters" role="group" aria-label="Filter experts by discipline">
+          <button class="on" data-f="all">All</button>
+          <button data-f="ai">AI &amp; computing</button>
+          <button data-f="clin">Clinical medicine</button>
+          <button data-f="epi">Epidemiology &amp; methods</button>
+          <button data-f="hum">Philosophy, law &amp; ethics</button>
+        </div>
+        <div class="people" id="people"></div>
+      </div>
+    </section>
+
+    <!-- INTERDISCIPLINARITY -->
+    <section class="sec sec--alt" id="inter">
+      <div class="wrap grid2">
+        <div class="reveal">
+          <p class="eyebrow">Interdisciplinarity</p>
+          <h2>Constitutive, not added on</h2>
+          <p>Is a Virtual Brain Twin equitable, can clinicians rely on it, and do patients understand it? Technical metrics need epidemiological validation; regulatory judgements demand philosophical interpretation; clinical usability needs physician assessment.</p>
+          <p>For example, applying missing-data methodology to a tumour-growth model reveals whether its confidence is genuinely reliable or an artefact. The organisers span three University of Luxembourg entities: <strong>LCSB</strong>, <strong>SnT</strong> and the <strong>Faculty of Humanities, Education and Social Sciences</strong>.</p>
+        </div>
+        <div class="quad reveal">
+          <div class="card"><h4>Computer science &amp; AI</h4><p>Generative modelling, robustness</p></div>
+          <div class="card"><h4>Clinical medicine</h4><p>Neuro-oncology, neurology, translation</p></div>
+          <div class="card"><h4>Epidemiology &amp; methodology</h4><p>Validation, bias, prediction models</p></div>
+          <div class="card"><h4>Philosophy, law &amp; ethics</h4><p>Opacity, EU AI Act, consent</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTCOMES -->
+    <section id="outcomes" class="sec">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Outcomes</p><h2>A launchpad for what comes next</h2></div>
+        <div class="grid3">
+          <article class="card reveal"><h3>Position paper</h3><p><em>Principles for Responsible Generative AI in Clinical Brain Imaging</em>, the first framework co-authored by AI researchers, clinicians, epidemiologists and legal scholars on VBT trustworthiness. Published open access; targeting high-impact interdisciplinary journals and a top AI conference, with an extended version in a Q1 journal.</p></article>
+          <article class="card reveal"><h3>Follow-on funding</h3><p>National: FNR WEAVE / INTER. EU: Horizon Europe Health 2027 calls on Virtual Human Twins for clinical decision support and AGI for healthcare. Plus IAS AUDACITY and industrial / philanthropic challenge grants.</p></article>
+          <article class="card reveal"><h3>A lasting network</h3><p>A shared mailing list, a public-facing summary via UL channels and a follow-up virtual session six months after the workshop to track progress toward the proposals.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="sec sec--alt">
+      <div class="wrap">
+        <div class="head reveal"><p class="eyebrow">Organisers</p><h2>Get in touch</h2>
+          <p class="sub">The workshop is by invitation. For questions, collaboration or press, contact the organising team.</p></div>
+        <div class="grid3">
+          <article class="card org reveal"><div class="av">BG</div><h3>Beatriz Garcia Santa Cruz</h3><p class="role">Coordinating PI<br>Luxembourg Centre for Systems Biomedicine</p><a href="mailto:beatriz.garcia@uni.lu">beatriz.garcia@uni.lu</a></article>
+          <article class="card org reveal"><div class="av">SG</div><h3>Salah Ghamizi</h3><p class="role">Co-PI<br>Interdisciplinary Centre for Security, Reliability and Trust</p><a href="mailto:salah.ghamizi@uni.lu">salah.ghamizi@uni.lu</a></article>
+          <article class="card org reveal"><div class="av">TR</div><h3>Thomas Raleigh</h3><p class="role">Co-PI<br>Faculty of Humanities, Education and Social Sciences</p><a href="mailto:thomas.raleigh@uni.lu">thomas.raleigh@uni.lu</a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <div class="brand"><svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><use href="assets/img/sprite.svg#logo"/></svg><span>Brain<b>GEN</b></span></div>
+      <p>Funded by the IAS Luxembourg 2026 Brainstorm programme · University of Luxembourg</p>
+      <p class="muted">This site uses no cookies and no tracking.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
