@@ -154,7 +154,7 @@ strong{color:var(--text)}
 .logo img{display:block;max-width:100%;width:auto}
 .logo--ias img{height:110px}
 @media (max-width:900px){.partners{grid-template-columns:1fr;gap:32px}}
-@media (max-width:560px){.logo{padding:16px 20px}.logo img[height="40"]{height:30px}}
+@media (max-width:560px){.logo{padding:16px 20px}.logo img[height="40"]{height:30px}.logo img.tall{height:56px}}
 
 /* footer */
 .foot{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-size:.9rem}
