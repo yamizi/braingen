@@ -142,6 +142,20 @@ strong{color:var(--text)}
 .org a{color:var(--b);text-decoration:none;font-weight:500;word-break:break-all}
 .org a:hover{text-decoration:underline}
 
+/* partners */
+.funded{margin-top:22px;font-size:.88rem;color:var(--muted)}
+.funded a{color:var(--text);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.funded a:hover{text-decoration-color:var(--b)}
+.partners{display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:start}
+.pgroup h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-family:Inter,sans-serif;font-weight:600;margin-bottom:16px}
+.logos{display:flex;flex-wrap:wrap;gap:16px}
+.logo{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px 28px;transition:transform .25s,box-shadow .25s}
+.logo:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.logo img{display:block;max-width:100%;width:auto}
+.logo--ias img{height:110px}
+@media (max-width:900px){.partners{grid-template-columns:1fr;gap:32px}}
+@media (max-width:560px){.logo{padding:16px 20px}.logo img[height="40"]{height:30px}}
+
 /* footer */
 .foot{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-size:.9rem}
 .foot__in{display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center}
