@@ -10,15 +10,15 @@
     { n: 'Magali Perquin', a: 'Luxembourg Institute of Health', g: 'lux', f: ['epi', 'clin'], b: 'Epidemiology of neurodegenerative diseases and how everyday activity mitigates cognitive decline.', confirmed: true },
     { n: 'Lukas Pavelka', a: 'Centre Hospitalier de Luxembourg', g: 'lux', f: ['clin'], b: 'Neurologist: movement disorders, Parkinson\'s biomarkers and computational pathophysiology.', confirmed: true },
     { n: 'Johan Largo', a: 'University of Luxembourg · FHSE', g: 'lux', f: ['hum'], b: 'PhD researcher on human-AI interaction and the impact of LLMs on cognitive science.', confirmed: true },
-    { n: 'Marzyeh Ghassemi', a: 'MIT · IMES', g: 'int', f: ['ai', 'epi'], b: 'Clinically grounded evaluation of medical AI, language and foundation models; fairness in health.', confirmed: true },
-    { n: 'Guillermo Lorenzo Gómez', a: 'University of A Coruña', g: 'int', f: ['ai', 'clin'], b: 'Ramón y Cajal Fellow; 2025 ERC Starting Grant on digital twins for cancer modelling.', confirmed: true },
-    { n: 'Ann Christin Hau', a: 'University Hospital Frankfurt', g: 'int', f: ['clin'], b: 'Leads Translational Neuro-Oncology: brain tumour progression and therapy resistance.', confirmed: true },
-    { n: 'Rick C.G. Helmich', a: 'Donders Centre for Cognitive Neuroimaging', g: 'int', f: ['clin'], b: 'Neurologist studying neural mechanisms of movement disorders such as Parkinson\'s.', confirmed: true },
-    { n: 'María J. Ledesma-Carbayo', a: 'Universidad Politécnica de Madrid', g: 'int', f: ['ai'], b: 'Biomedical engineering and medical imaging, multimodal AI and federated learning.', confirmed: true },
-    { n: 'María Villalobos-Quesada', a: 'Leiden University', g: 'int', f: ['hum'], b: 'Ethical, regulatory and societal implications of AI, big data and eHealth in medicine.', confirmed: true },
-    { n: 'Lena Maier-Hein', a: 'German Cancer Research Center (DKFZ)', g: 'int', f: ['ai', 'epi'], b: 'Computer-assisted interventions; lead author of Metrics Reloaded on image-analysis validation.', confirmed: true },
-    { n: 'Laure Wynants', a: 'Maastricht University · KU Leuven', g: 'int', f: ['epi'], b: 'Validation and critical appraisal of clinical prediction models; led the COVID-19 model review.', confirmed: true },
-    { n: 'Lê Nguyên Hoang', a: 'Science4All · Orange AI Ethics Committee', g: 'int', f: ['ai', 'hum'], b: 'AI safety researcher and science communicator focused on algorithmic ethics.', confirmed: true }
+    { n: 'Marzyeh Ghassemi', a: 'MIT · IMES', g: 'int', f: ['ai', 'epi'], b: 'Clinically grounded evaluation of medical AI, language and foundation models; fairness in health.', confirmed: false },
+    { n: 'Guillermo Lorenzo Gómez', a: 'University of A Coruña', g: 'int', f: ['ai', 'clin'], b: 'Ramón y Cajal Fellow; 2025 ERC Starting Grant on digital twins for cancer modelling.', confirmed: false },
+    { n: 'Ann Christin Hau', a: 'University Hospital Frankfurt', g: 'int', f: ['clin'], b: 'Leads Translational Neuro-Oncology: brain tumour progression and therapy resistance.', confirmed: false },
+    { n: 'Rick C.G. Helmich', a: 'Donders Centre for Cognitive Neuroimaging', g: 'int', f: ['clin'], b: 'Neurologist studying neural mechanisms of movement disorders such as Parkinson\'s.', confirmed: false },
+    { n: 'María J. Ledesma-Carbayo', a: 'Universidad Politécnica de Madrid', g: 'int', f: ['ai'], b: 'Biomedical engineering and medical imaging, multimodal AI and federated learning.', confirmed: false },
+    { n: 'María Villalobos-Quesada', a: 'Leiden University', g: 'int', f: ['hum'], b: 'Ethical, regulatory and societal implications of AI, big data and eHealth in medicine.', confirmed: false },
+    { n: 'Lena Maier-Hein', a: 'German Cancer Research Center (DKFZ)', g: 'int', f: ['ai', 'epi'], b: 'Computer-assisted interventions; lead author of Metrics Reloaded on image-analysis validation.', confirmed: false },
+    { n: 'Laure Wynants', a: 'Maastricht University · KU Leuven', g: 'int', f: ['epi'], b: 'Validation and critical appraisal of clinical prediction models; led the COVID-19 model review.', confirmed: false },
+    { n: 'Lê Nguyên Hoang', a: 'Science4All · Orange AI Ethics Committee', g: 'int', f: ['ai', 'hum'], b: 'AI safety researcher and science communicator focused on algorithmic ethics.', confirmed: false }
   ];
   var LABEL = { org: 'Organiser', lux: 'Luxembourg', int: 'International' };
 
